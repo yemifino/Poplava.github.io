@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr-Bold';
+	src: url('fonts/HelveticaNeueCyr-Bold.ttf');
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr-Normal';
+	src: url('fonts/HelveticaNeueCyr-Normal.ttf');
+}
+@font-face {
+	font-family: 'Rimma Sans Bold';
+	src: url('fonts/RIMMA_SANS-BOLD.TTF');
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+	background: #fff;
+	font-family: 'Rimma Sans Bold', sans-serif;
+}
+
+p, h1, h2{
+	margin: 0
+}
+
+html {
+	background-color: #C7C7C7;
+}
+/* Header */
+
+header {
+	padding: 0 22px;
+}
+.header__main-text {
+	font-size: 119.167px;
+	line-height: 143px;
+	display: flex;
+	margin-top: -3px;
+}
+.main-text__letter-O {
+	height: 83.42px;
+	margin-top: 41px;
+	margin-left: 3px;
+}
+.main-text__letter-P2 {
+	margin-left: 5px;
+}
+.main-text__letter-L {
+	margin-left: 23px;
+}
+.main-text__last-Letters {
+	margin-left: 17.46px;
+}
+.header__media {
+	font-family: 'HelveticaNeueCyr-Bold';
+	font-size: 30px;
+	margin-top: 3px;
+}
+
+/* Main About */
+main {
+	padding: 0 22px;
+	margin-top: 36px;
+}
+main p {
+	font-family: 'HelveticaNeueCyr-Normal';
+	font-size: 20px;
+	margin-top: 8px;
+}
+.main__about p {
+	font-size: 30px;
+	font-family: 'Rimma Sans Bold';
+	line-height: 36px;
+	margin-top: 128px;
+	text-transform: uppercase;
+	letter-spacing: 0.1px;
+}
+
+.main__about-second {
+	font-size: 30px;
+	font-family: 'Rimma Sans Bold';
+	line-height: 36px;
+	margin-top: 37px !important;  
+	text-transform: uppercase;
+	letter-spacing: 0.1px;
+}
+
+/* Main Team */
+
+.main__team {
+	margin-top: 139px;
+}
+.team-text {
+	font-size: 50px;
+	font-family: 'HelveticaNeueCyr-Bold';
+}
+.team {
+	display: flex;
+	margin-top: 33px;
+}
+.text {
+	margin-left: 13px;
+}
+.text h1{
+	font-size: 30px;
+	font-family: 'Rimma Sans Bold';
+	margin-top: -10px;
+}
+.text h2{
+	font-size: 25px;
+	font-family: 'HelveticaNeueCyr-Bold';
+	margin-top: 2px;
+}
+.about{
+	font-size: 20px;
+	font-family: 'HelveticaNeueCyr-Normal';
+	line-height: 24px;
+	margin-top: 10px;
+}
+.can {
+	font-weight: bold;
+	font-family: 'HelveticaNeueCyr-Bold' !important;
+	margin-top: 10px;
+}
+.skills-list {
+	width: 210px;
+	margin-top: 0px;
+	margin-bottom: -10px;
+}
+/* Main Team 2 */
+.team-second {
+	display: flex;
+	margin-top: 117px;
+	overflow: visible;
+}
+.skills-list-second {
+	width: 210px;
+	margin-top: 0px;
+}
+.can-second {
+	font-weight: bold;
+	font-family: 'HelveticaNeueCyr-Bold' !important;
+	margin-top: 40px;
+}
+/* Main Team 3 */
+.skills-list-third {
+	margin-top: 0px;
+}
+/* Main T-Shirts */
+.T-Shirts {
+	margin-top: 151px;
+	overflow: hidden;
+	padding: 0 !important;
+}
+.T-Shirts p {
+	font-size: 40px;
+	font-family: 'Rimma Sans Bold';
+	margin: 0 22px;
+}
+.White_T-Shirt {
+	transform: rotate(18.53deg);
+	margin-left: -200px;
+	margin-top: 45px;
+	padding-bottom: 30px;
+}
+.Black_T-Shirt {
+	transform: rotate(-14.92deg);
+	margin-left: -195px;
+	margin-top: -160px;
+}
+.images-T-Shirts {
+	display: flex;
+}
+/* Footer */
+footer {
+	margin-top: 100px;
+}
+footer p {
+	font-family: 'HelveticaNeueCyr-Bold';
+	font-size: 20px;
+	padding: 0 0 8px 20px;
+}
